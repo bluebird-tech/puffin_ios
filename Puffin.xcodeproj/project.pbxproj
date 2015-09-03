@@ -14,6 +14,9 @@
 		CCCA39B41B981C5C004B462D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B31B981C5C004B462D /* Images.xcassets */; };
 		CCCA39B71B981C5C004B462D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B51B981C5C004B462D /* LaunchScreen.xib */; };
 		CCCA39C31B981C5D004B462D /* PuffinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39C21B981C5D004B462D /* PuffinTests.swift */; };
+		CCCA39CF1B985475004B462D /* AddMeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */; };
+		CCCA39D11B9855ED004B462D /* MeasurementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */; };
+		CCCA39D31B985946004B462D /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D21B985946004B462D /* Measurement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		CCCA39BC1B981C5D004B462D /* PuffinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCA39C11B981C5D004B462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCA39C21B981C5D004B462D /* PuffinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffinTests.swift; sourceTree = "<group>"; };
+		CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeasurementViewController.swift; sourceTree = "<group>"; };
+		CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementsTableViewController.swift; sourceTree = "<group>"; };
+		CCCA39D21B985946004B462D /* Measurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,12 @@
 		CCCA39A61B981C5C004B462D /* Puffin */ = {
 			isa = PBXGroup;
 			children = (
+				CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */,
+				CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */,
 				CCCA39A91B981C5C004B462D /* AppDelegate.swift */,
 				CCCA39AE1B981C5C004B462D /* ViewController.swift */,
 				CCCA39B01B981C5C004B462D /* Main.storyboard */,
+				CCCA39D21B985946004B462D /* Measurement.swift */,
 				CCCA39B31B981C5C004B462D /* Images.xcassets */,
 				CCCA39B51B981C5C004B462D /* LaunchScreen.xib */,
 				CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */,
@@ -217,7 +226,10 @@
 			files = (
 				CCCA39AF1B981C5C004B462D /* ViewController.swift in Sources */,
 				CCCA39AA1B981C5C004B462D /* AppDelegate.swift in Sources */,
+				CCCA39D31B985946004B462D /* Measurement.swift in Sources */,
 				CCCA39AD1B981C5C004B462D /* Puffin.xcdatamodeld in Sources */,
+				CCCA39D11B9855ED004B462D /* MeasurementsTableViewController.swift in Sources */,
+				CCCA39CF1B985475004B462D /* AddMeasurementViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Puffin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Puffin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
