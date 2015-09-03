@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCA39AA1B981C5C004B462D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39A91B981C5C004B462D /* AppDelegate.swift */; };
+		CCCA39AD1B981C5C004B462D /* Puffin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */; };
+		CCCA39AF1B981C5C004B462D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39AE1B981C5C004B462D /* ViewController.swift */; };
+		CCCA39B21B981C5C004B462D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B01B981C5C004B462D /* Main.storyboard */; };
+		CCCA39B41B981C5C004B462D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B31B981C5C004B462D /* Images.xcassets */; };
+		CCCA39B71B981C5C004B462D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B51B981C5C004B462D /* LaunchScreen.xib */; };
+		CCCA39C31B981C5D004B462D /* PuffinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39C21B981C5D004B462D /* PuffinTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCCA39BD1B981C5D004B462D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCCA399C1B981C5C004B462D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCCA39A31B981C5C004B462D;
+			remoteInfo = Puffin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCCA39A41B981C5C004B462D /* Puffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCA39A81B981C5C004B462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCA39A91B981C5C004B462D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCCA39AC1B981C5C004B462D /* Puffin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Puffin.xcdatamodel; sourceTree = "<group>"; };
+		CCCA39AE1B981C5C004B462D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCCA39B11B981C5C004B462D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCCA39B31B981C5C004B462D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCCA39B61B981C5C004B462D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCCA39BC1B981C5D004B462D /* PuffinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PuffinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCA39C11B981C5D004B462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCCA39C21B981C5D004B462D /* PuffinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffinTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCA39A11B981C5C004B462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCA39B91B981C5D004B462D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCA399B1B981C5C004B462D = {
+			isa = PBXGroup;
+			children = (
+				CCCA39A61B981C5C004B462D /* Puffin */,
+				CCCA39BF1B981C5D004B462D /* PuffinTests */,
+				CCCA39A51B981C5C004B462D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCA39A51B981C5C004B462D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39A41B981C5C004B462D /* Puffin.app */,
+				CCCA39BC1B981C5D004B462D /* PuffinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCA39A61B981C5C004B462D /* Puffin */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39A91B981C5C004B462D /* AppDelegate.swift */,
+				CCCA39AE1B981C5C004B462D /* ViewController.swift */,
+				CCCA39B01B981C5C004B462D /* Main.storyboard */,
+				CCCA39B31B981C5C004B462D /* Images.xcassets */,
+				CCCA39B51B981C5C004B462D /* LaunchScreen.xib */,
+				CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */,
+				CCCA39A71B981C5C004B462D /* Supporting Files */,
+			);
+			path = Puffin;
+			sourceTree = "<group>";
+		};
+		CCCA39A71B981C5C004B462D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39A81B981C5C004B462D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCCA39BF1B981C5D004B462D /* PuffinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39C21B981C5D004B462D /* PuffinTests.swift */,
+				CCCA39C01B981C5D004B462D /* Supporting Files */,
+			);
+			path = PuffinTests;
+			sourceTree = "<group>";
+		};
+		CCCA39C01B981C5D004B462D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39C11B981C5D004B462D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCA39A31B981C5C004B462D /* Puffin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCA39C61B981C5D004B462D /* Build configuration list for PBXNativeTarget "Puffin" */;
+			buildPhases = (
+				CCCA39A01B981C5C004B462D /* Sources */,
+				CCCA39A11B981C5C004B462D /* Frameworks */,
+				CCCA39A21B981C5C004B462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Puffin;
+			productName = Puffin;
+			productReference = CCCA39A41B981C5C004B462D /* Puffin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCCA39BB1B981C5D004B462D /* PuffinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCA39C91B981C5D004B462D /* Build configuration list for PBXNativeTarget "PuffinTests" */;
+			buildPhases = (
+				CCCA39B81B981C5D004B462D /* Sources */,
+				CCCA39B91B981C5D004B462D /* Frameworks */,
+				CCCA39BA1B981C5D004B462D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCCA39BE1B981C5D004B462D /* PBXTargetDependency */,
+			);
+			name = PuffinTests;
+			productName = PuffinTests;
+			productReference = CCCA39BC1B981C5D004B462D /* PuffinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCA399C1B981C5C004B462D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Frank C. Eckert";
+				TargetAttributes = {
+					CCCA39A31B981C5C004B462D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CCCA39BB1B981C5D004B462D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CCCA39A31B981C5C004B462D;
+					};
+				};
+			};
+			buildConfigurationList = CCCA399F1B981C5C004B462D /* Build configuration list for PBXProject "Puffin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCCA399B1B981C5C004B462D;
+			productRefGroup = CCCA39A51B981C5C004B462D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCA39A31B981C5C004B462D /* Puffin */,
+				CCCA39BB1B981C5D004B462D /* PuffinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCA39A21B981C5C004B462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA39B21B981C5C004B462D /* Main.storyboard in Resources */,
+				CCCA39B71B981C5C004B462D /* LaunchScreen.xib in Resources */,
+				CCCA39B41B981C5C004B462D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCA39BA1B981C5D004B462D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCA39A01B981C5C004B462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA39AF1B981C5C004B462D /* ViewController.swift in Sources */,
+				CCCA39AA1B981C5C004B462D /* AppDelegate.swift in Sources */,
+				CCCA39AD1B981C5C004B462D /* Puffin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCA39B81B981C5D004B462D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA39C31B981C5D004B462D /* PuffinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCCA39BE1B981C5D004B462D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCCA39A31B981C5C004B462D /* Puffin */;
+			targetProxy = CCCA39BD1B981C5D004B462D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCCA39B01B981C5C004B462D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCA39B11B981C5C004B462D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCCA39B51B981C5C004B462D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCA39B61B981C5C004B462D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCA39C41B981C5D004B462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCCA39C51B981C5D004B462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCA39C71B981C5D004B462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Puffin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCCA39C81B981C5D004B462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Puffin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCCA39CA1B981C5D004B462D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PuffinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puffin.app/Puffin";
+			};
+			name = Debug;
+		};
+		CCCA39CB1B981C5D004B462D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PuffinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puffin.app/Puffin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCA399F1B981C5C004B462D /* Build configuration list for PBXProject "Puffin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCA39C41B981C5D004B462D /* Debug */,
+				CCCA39C51B981C5D004B462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCA39C61B981C5D004B462D /* Build configuration list for PBXNativeTarget "Puffin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCA39C71B981C5D004B462D /* Debug */,
+				CCCA39C81B981C5D004B462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCCA39C91B981C5D004B462D /* Build configuration list for PBXNativeTarget "PuffinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCA39CA1B981C5D004B462D /* Debug */,
+				CCCA39CB1B981C5D004B462D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCCA39AC1B981C5C004B462D /* Puffin.xcdatamodel */,
+			);
+			currentVersion = CCCA39AC1B981C5C004B462D /* Puffin.xcdatamodel */;
+			path = Puffin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCCA399C1B981C5C004B462D /* Project object */;
+}
