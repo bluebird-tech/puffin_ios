@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7958CB6F56F2780B920109CB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C66DA847EDC05CC8D06E0CA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CC6CDA141BA1EADA00E9F06F /* MeasurementSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CDA131BA1EADA00E9F06F /* MeasurementSerializer.swift */; };
+		CCA5C6221BA3225A004FEA5C /* MeasurementUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA5C6211BA3225A004FEA5C /* MeasurementUploader.swift */; };
 		CCCA39AA1B981C5C004B462D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39A91B981C5C004B462D /* AppDelegate.swift */; };
 		CCCA39AD1B981C5C004B462D /* Puffin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */; };
-		CCCA39AF1B981C5C004B462D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39AE1B981C5C004B462D /* ViewController.swift */; };
 		CCCA39B21B981C5C004B462D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B01B981C5C004B462D /* Main.storyboard */; };
 		CCCA39B41B981C5C004B462D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B31B981C5C004B462D /* Images.xcassets */; };
 		CCCA39B71B981C5C004B462D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCA39B51B981C5C004B462D /* LaunchScreen.xib */; };
 		CCCA39C31B981C5D004B462D /* PuffinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39C21B981C5D004B462D /* PuffinTests.swift */; };
 		CCCA39CF1B985475004B462D /* AddMeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */; };
 		CCCA39D11B9855ED004B462D /* MeasurementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */; };
-		CCCA39D31B985946004B462D /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D21B985946004B462D /* Measurement.swift */; };
+		CCCA39D71B9975F6004B462D /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D61B9975F6004B462D /* Measurement.swift */; };
+		CCCA39D91B9A0954004B462D /* LocalNotificationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCA39D81B9A0954004B462D /* LocalNotificationInitializer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,11 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C66DA847EDC05CC8D06E0CA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CC7066EB660F3A5F1F8921 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AD91E13DA2AF71275FD84CF9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CC6CDA131BA1EADA00E9F06F /* MeasurementSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementSerializer.swift; sourceTree = "<group>"; };
+		CCA5C6211BA3225A004FEA5C /* MeasurementUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementUploader.swift; sourceTree = "<group>"; };
 		CCCA39A41B981C5C004B462D /* Puffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCA39A81B981C5C004B462D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCCA39A91B981C5C004B462D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCA39AC1B981C5C004B462D /* Puffin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Puffin.xcdatamodel; sourceTree = "<group>"; };
-		CCCA39AE1B981C5C004B462D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCCA39B11B981C5C004B462D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCCA39B31B981C5C004B462D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCCA39B61B981C5C004B462D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,7 +50,8 @@
 		CCCA39C21B981C5D004B462D /* PuffinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuffinTests.swift; sourceTree = "<group>"; };
 		CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeasurementViewController.swift; sourceTree = "<group>"; };
 		CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasurementsTableViewController.swift; sourceTree = "<group>"; };
-		CCCA39D21B985946004B462D /* Measurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		CCCA39D61B9975F6004B462D /* Measurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		CCCA39D81B9A0954004B462D /* LocalNotificationInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalNotificationInitializer.swift; path = /Users/opahk/code/puffin_ios/Puffin/Puffin/Initializers/LocalNotificationInitializer.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7958CB6F56F2780B920109CB /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +73,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22F5AD20979B82C0C9CC0F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C66DA847EDC05CC8D06E0CA /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E6A190F82F787DD6AEAE05F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CC7066EB660F3A5F1F8921 /* Pods.debug.xcconfig */,
+				AD91E13DA2AF71275FD84CF9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC2211F21BA1E5830080FC10 /* ModelSerializers */ = {
+			isa = PBXGroup;
+			children = (
+				CC6CDA131BA1EADA00E9F06F /* MeasurementSerializer.swift */,
+			);
+			name = ModelSerializers;
+			path = /Users/opahk/code/puffin_ios/Puffin/Puffin/ModelSerializers;
+			sourceTree = "<absolute>";
+		};
+		CC6CDA161BA1F20900E9F06F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCA5C6211BA3225A004FEA5C /* MeasurementUploader.swift */,
+			);
+			name = Services;
+			path = /Users/opahk/code/puffin_ios/Puffin/Puffin/Services;
+			sourceTree = "<absolute>";
+		};
 		CCCA399B1B981C5C004B462D = {
 			isa = PBXGroup;
 			children = (
 				CCCA39A61B981C5C004B462D /* Puffin */,
 				CCCA39BF1B981C5D004B462D /* PuffinTests */,
 				CCCA39A51B981C5C004B462D /* Products */,
+				5E6A190F82F787DD6AEAE05F /* Pods */,
+				22F5AD20979B82C0C9CC0F5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,16 +131,17 @@
 		CCCA39A61B981C5C004B462D /* Puffin */ = {
 			isa = PBXGroup;
 			children = (
-				CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */,
-				CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */,
 				CCCA39A91B981C5C004B462D /* AppDelegate.swift */,
-				CCCA39AE1B981C5C004B462D /* ViewController.swift */,
 				CCCA39B01B981C5C004B462D /* Main.storyboard */,
-				CCCA39D21B985946004B462D /* Measurement.swift */,
 				CCCA39B31B981C5C004B462D /* Images.xcassets */,
 				CCCA39B51B981C5C004B462D /* LaunchScreen.xib */,
 				CCCA39AB1B981C5C004B462D /* Puffin.xcdatamodeld */,
+				CCCA39DA1B9A09C7004B462D /* Initializers */,
+				CC2211F21BA1E5830080FC10 /* ModelSerializers */,
+				CCCA39DB1B9A09E5004B462D /* Models */,
+				CC6CDA161BA1F20900E9F06F /* Services */,
 				CCCA39A71B981C5C004B462D /* Supporting Files */,
+				CCCA39DC1B9A09F4004B462D /* ViewControllers */,
 			);
 			path = Puffin;
 			sourceTree = "<group>";
@@ -124,6 +171,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CCCA39DA1B9A09C7004B462D /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39D81B9A0954004B462D /* LocalNotificationInitializer.swift */,
+			);
+			name = Initializers;
+			path = /Users/opahk/code/puffin_ios/Puffin/Puffin/Initializers;
+			sourceTree = "<absolute>";
+		};
+		CCCA39DB1B9A09E5004B462D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39D61B9975F6004B462D /* Measurement.swift */,
+			);
+			name = Models;
+			path = /Users/opahk/code/puffin_ios/Puffin/Puffin/Models;
+			sourceTree = "<absolute>";
+		};
+		CCCA39DC1B9A09F4004B462D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA39CE1B985475004B462D /* AddMeasurementViewController.swift */,
+				CCCA39D01B9855ED004B462D /* MeasurementsTableViewController.swift */,
+			);
+			name = ViewControllers;
+			path = /Users/opahk/code/puffin_ios/Puffin/Puffin/ViewControllers;
+			sourceTree = "<absolute>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCCA39C61B981C5D004B462D /* Build configuration list for PBXNativeTarget "Puffin" */;
 			buildPhases = (
+				01413A4C6D8AEC9C2D21BFDD /* Check Pods Manifest.lock */,
 				CCCA39A01B981C5C004B462D /* Sources */,
 				CCCA39A11B981C5C004B462D /* Frameworks */,
 				CCCA39A21B981C5C004B462D /* Resources */,
+				C9EE01441052EE000AEF82A9 /* Embed Pods Frameworks */,
+				AD4BD4688B7836ED5DBD5A57 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,7 +246,9 @@
 		CCCA399C1B981C5C004B462D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Frank C. Eckert";
 				TargetAttributes = {
 					CCCA39A31B981C5C004B462D = {
@@ -219,16 +299,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01413A4C6D8AEC9C2D21BFDD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4BD4688B7836ED5DBD5A57 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EE01441052EE000AEF82A9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCCA39A01B981C5C004B462D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCCA39AF1B981C5C004B462D /* ViewController.swift in Sources */,
 				CCCA39AA1B981C5C004B462D /* AppDelegate.swift in Sources */,
-				CCCA39D31B985946004B462D /* Measurement.swift in Sources */,
+				CCCA39D71B9975F6004B462D /* Measurement.swift in Sources */,
 				CCCA39AD1B981C5C004B462D /* Puffin.xcdatamodeld in Sources */,
+				CC6CDA141BA1EADA00E9F06F /* MeasurementSerializer.swift in Sources */,
 				CCCA39D11B9855ED004B462D /* MeasurementsTableViewController.swift in Sources */,
+				CCCA39D91B9A0954004B462D /* LocalNotificationInitializer.swift in Sources */,
+				CCA5C6221BA3225A004FEA5C /* MeasurementUploader.swift in Sources */,
 				CCCA39CF1B985475004B462D /* AddMeasurementViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +422,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -311,6 +442,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Puffin/Puffin-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -349,6 +481,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Puffin/Puffin-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -356,28 +489,38 @@
 		};
 		CCCA39C71B981C5D004B462D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CC7066EB660F3A5F1F8921 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Puffin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebird-tech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CCCA39C81B981C5D004B462D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD91E13DA2AF71275FD84CF9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Puffin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebird-tech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
 		CCCA39CA1B981C5D004B462D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CC7066EB660F3A5F1F8921 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,13 +533,16 @@
 				);
 				INFOPLIST_FILE = PuffinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebird-tech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puffin.app/Puffin";
 			};
 			name = Debug;
 		};
 		CCCA39CB1B981C5D004B462D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CC7066EB660F3A5F1F8921 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -405,7 +551,9 @@
 				);
 				INFOPLIST_FILE = PuffinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluebird-tech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Puffin.app/Puffin";
 			};
 			name = Release;
@@ -429,6 +577,7 @@
 				CCCA39C81B981C5D004B462D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCCA39C91B981C5D004B462D /* Build configuration list for PBXNativeTarget "PuffinTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +586,7 @@
 				CCCA39CB1B981C5D004B462D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

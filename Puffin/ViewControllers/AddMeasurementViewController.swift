@@ -14,12 +14,11 @@ class AddMeasurementViewController: UIViewController {
     @IBOutlet weak var save: UIBarButtonItem!
     @IBOutlet weak var label: UILabel!
     
-    var measurement: Measurement?
+    var measurementValue: Int16?
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (sender as! UIBarButtonItem) != self.save { return }
-        var value = Int(round(self.value.value))
-        self.measurement = Measurement(value: value, measuredAt: NSDate())
+        self.measurementValue = Int16(round(self.value.value))
     }
     
     @IBAction func updateSliderLabel(sender: AnyObject) {
